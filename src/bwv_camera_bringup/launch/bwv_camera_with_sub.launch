@@ -1,0 +1,6 @@
+<launch>
+	<master auto="start"/>
+	<node name="bwv_camera_driver" pkg="bwv_camera" type="bwv_camera_node" output="screen" />
+	<node name="bwv_camera_sub" pkg="bwv_camera_sub" type="bwv_camera_sub_node" />
+
+</launch>
